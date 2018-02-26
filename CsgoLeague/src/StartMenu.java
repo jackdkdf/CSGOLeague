@@ -6,12 +6,12 @@ import java.awt.event.ActionListener;
 /**
  * Created by Jack on 2/18/2018.
  */
-public class GUI extends JFrame implements ActionListener {
+public class StartMenu extends JFrame implements ActionListener {
 
     private JButton login, standings, stats, startScrim;
     private final int buttonHeight = 10;
 
-    public GUI(){
+    public StartMenu(){
         super("Client");
 
         //Login button or logout button
