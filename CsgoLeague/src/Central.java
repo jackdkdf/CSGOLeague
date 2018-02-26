@@ -1,3 +1,5 @@
+import GUI.StartMenu;
+
 import javax.swing.*;
 
 public class Central {
