@@ -54,7 +54,18 @@ public class StartMenu extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e){
-
+        String cmd = e.getActionCommand();
+        switch(cmd){
+            case "Login":
+                dispose();
+                Login login = new Login();
+                login.setSize(900, 500);
+                login.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                login.setResizable(false);
+                login.setLayout(null);
+                login.setVisible(true);
+                break;
+        }
     }
 
 }
