@@ -1,3 +1,5 @@
+package Resources;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -22,12 +24,12 @@ public class JMethods {
         return jTextArea;
     }
 
-    public JButton createJButton(String label, int fontsize, int x, int y, int w, int h){
+    public JButton createJButton(String label, int fontsize, int x, int y, int width, int height){
         JButton jButton;
         jButton = new JButton(label);
         jButton.setFont(new Font("Ubuntu", Font.PLAIN, fontsize));
         jButton.setLocation(x, y);
-        jButton.setSize(w, h);
+        jButton.setSize(width, height);
 
         return  jButton;
     }
@@ -41,5 +43,15 @@ public class JMethods {
         jComboBox.setSize(w, h);
 
         return  jComboBox;
+    }
+
+    public JTextField createJTextFeid(int columns, int fontsize, int x, int y, int width, int height){
+        JTextField jTextField;
+        jTextField = new JTextField(columns);
+        jTextField.setFont(new Font("Ubuntu", Font.PLAIN, fontsize));
+        jTextField.setLocation(x, y);
+        jTextField.setSize(width, height);
+
+        return jTextField;
     }
 }

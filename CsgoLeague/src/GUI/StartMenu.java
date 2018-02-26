@@ -1,7 +1,8 @@
 package GUI;
 
+import Resources.JMethods;
+
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -12,38 +13,30 @@ public class StartMenu extends JFrame implements ActionListener {
 
     private JButton login, standings, stats, startScrim;
     private final int buttonHeight = 10;
+    JMethods jMethods = new JMethods();
 
     public StartMenu(){
         super("Client");
 
         //Login button or logout button
-        login = new JButton("Login");
+        login = jMethods.createJButton("Login", 30, 15, buttonHeight, 150, 40);
         login.addActionListener(this);
         login.setActionCommand("Login");
-        login.setLocation(15, buttonHeight);
-        login.setFont(new Font("Ubuntu", Font.PLAIN, 30));
-        login.setSize(150,40);
+
         //See teams and players leaderboard
-        standings = new JButton("Standings");
+        standings = jMethods.createJButton("Standings", 30, 180, buttonHeight, 200 , 40);
         standings.addActionListener(this);
         standings.setActionCommand("Standings");
-        standings.setLocation(180, buttonHeight);
-        standings.setFont(new Font("Ubuntu", Font.PLAIN, 30));
-        standings.setSize(200,40);
+
         //See your personal stats
-        stats = new JButton("Statistics");
+        stats = jMethods.createJButton("Statistics", 30, 395, buttonHeight, 200, 40);
         stats.addActionListener(this);
         stats.setActionCommand("Statistics");
-        stats.setLocation(395,buttonHeight);
-        stats.setFont(new Font("Ubuntu", Font.PLAIN, 30));
-        stats.setSize(200, 40);
+
         //Starts a scrim with another team
-        startScrim = new JButton("Start Scrim");
+        startScrim = jMethods.createJButton("Start Scrim", 80, 15, 80, 580, 90);
         startScrim.addActionListener(this);
         startScrim.setActionCommand("Search");
-        startScrim.setLocation(15, 80);
-        startScrim.setFont(new Font("Ubuntu", Font.PLAIN, 80));
-        startScrim.setSize(580, 90);
 
         //Adds all the objects
         add(login);
