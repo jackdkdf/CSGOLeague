@@ -1,7 +1,31 @@
 package GUI;
 
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 /**
  * Created by Jack on 3/1/2018.
  */
-public class Actions {
+public class Actions implements ActionListener {
+
+    @Override
+    public void actionPerformed(ActionEvent e){
+        String cmd = e.getActionCommand();
+        switch (cmd){
+            case "Match":
+                JOptionPane.showMessageDialog(null,"Match");
+                break;
+            case "Statistics":
+                JOptionPane.showMessageDialog(null,"Stats");
+                break;
+            case "Standings":
+                JOptionPane.showMessageDialog(null,"Standings");
+                break;
+            case "Leaderboard":
+                JOptionPane.showMessageDialog(null,"Leaderboard");
+                break;
+        }
+    }
+
 }
