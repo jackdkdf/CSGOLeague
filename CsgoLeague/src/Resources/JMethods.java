@@ -5,11 +5,12 @@ import java.awt.*;
 
 public class JMethods {
 
-    public JLabel createJLabel(String label, int fontsize, int x, int y, int w, int h){
+    public JLabel createJLabel(String label, int fontsize, int x, int y, int w, int h, Color c){
         JLabel jLabel = new JLabel(label);
         jLabel.setFont(new Font("Ubuntu", Font.PLAIN, fontsize));
         jLabel.setLocation(x, y);
         jLabel.setSize(w, h);
+        jLabel.setForeground(c);
 
         return jLabel;
     }
@@ -28,6 +29,21 @@ public class JMethods {
         JButton jButton;
         jButton = new JButton(label);
         jButton.setFont(new Font("Ubuntu", Font.PLAIN, fontsize));
+        jButton.setLocation(x, y);
+        jButton.setSize(width, height);
+
+        return  jButton;
+    }
+
+    public JButton createJButtonHeader(String label, int fontsize, int x, int y, int width, int height){
+        JButton jButton;
+        jButton = new JButton(label);
+        jButton.setFont(new Font("Futura", Font.BOLD+Font.ITALIC, fontsize));
+        jButton.setForeground(Color.white);
+        jButton.setBorderPainted(false);
+        jButton.setContentAreaFilled(false);
+        jButton.setFocusPainted(false);
+        jButton.setOpaque(false);
         jButton.setLocation(x, y);
         jButton.setSize(width, height);
 

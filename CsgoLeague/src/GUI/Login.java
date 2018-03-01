@@ -1,6 +1,7 @@
 package GUI;
 
 import Resources.JMethods;
+import java.awt.Color;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -17,8 +18,8 @@ public class Login extends JFrame implements ActionListener {
         super("Client");
 
         //Declaring jlabels
-        usernameLabel = jMethods.createJLabel("Username", 30, 15, 20, 180, 36);
-        passwordLabel = jMethods.createJLabel("Password", 30, 15, 60, 180, 36);
+        usernameLabel = jMethods.createJLabel("Username", 30, 15, 20, 180, 36, Color.BLACK);
+        passwordLabel = jMethods.createJLabel("Password", 30, 15, 60, 180, 36, Color.BLACK);
 
         //Username text field
         username = jMethods.createJTextFeid(24, 30, 170, 20, 200, 36);
