@@ -25,7 +25,7 @@ public class Header extends JPanel {
         league = jMethods.createJLabel("Ti LEAGUE", 40, 80, 5, 210, 45, Color.white);
 
         //Homepage/match page
-        match = jMethods.createJButtonHeader("Match", 25, 100, buttonHeight, 110, 30);
+        match = jMethods.createJButtonHeader("Match", 25, 100, buttonHeight, 120, 30);
         match.addActionListener(new GUI.Actions());
         match.setActionCommand("Match");
 
@@ -39,7 +39,7 @@ public class Header extends JPanel {
         standings.addActionListener(new GUI.Actions());
         standings.setActionCommand("Standings");
 
-        leaderboard = jMethods.createJButtonHeader("Leaderboard", 25, 475, buttonHeight, 190, 30);
+        leaderboard = jMethods.createJButtonHeader("Leaderboard", 25, 475, buttonHeight, 200, 30);
         leaderboard.addActionListener(new GUI.Actions());
         leaderboard.setActionCommand("Leaderboard");
 

@@ -7,7 +7,7 @@ public class JMethods {
 
     public JLabel createJLabel(String label, int fontsize, int x, int y, int w, int h, Color c){
         JLabel jLabel = new JLabel(label);
-        jLabel.setFont(new Font("Ubuntu", Font.PLAIN, fontsize));
+        jLabel.setFont(new Font("Futura", Font.PLAIN, fontsize));
         jLabel.setLocation(x, y);
         jLabel.setSize(w, h);
         jLabel.setForeground(c);
@@ -69,5 +69,13 @@ public class JMethods {
         jTextField.setSize(width, height);
 
         return jTextField;
+    }
+
+    public ImageIcon scaleImage(String directory){
+        ImageIcon picture = new ImageIcon(directory);
+        Image resizedPicture = picture.getImage();
+        Image newimg = resizedPicture.getScaledInstance(60, 60, Image.SCALE_SMOOTH);
+        picture = new ImageIcon(newimg);
+        return picture;
     }
 }
