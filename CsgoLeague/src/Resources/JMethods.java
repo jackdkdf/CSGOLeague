@@ -7,7 +7,17 @@ public class JMethods {
 
     public JLabel createJLabel(String label, int fontsize, int x, int y, int w, int h, Color c){
         JLabel jLabel = new JLabel(label);
-        jLabel.setFont(new Font("Calibri", Font.PLAIN, fontsize));
+        jLabel.setFont(new Font("Arial", Font.PLAIN, fontsize));
+        jLabel.setLocation(x, y);
+        jLabel.setSize(w, h);
+        jLabel.setForeground(c);
+
+        return jLabel;
+    }
+
+    public JLabel createJLabelHeader(String label, int fontsize, int x, int y, int w, int h, Color c){
+        JLabel jLabel = new JLabel(label);
+        jLabel.setFont(new Font("Arial", Font.BOLD, fontsize));
         jLabel.setLocation(x, y);
         jLabel.setSize(w, h);
         jLabel.setForeground(c);
@@ -19,18 +29,33 @@ public class JMethods {
         JTextArea jTextArea;
         jTextArea = new JTextArea(label, rows, cols);
         jTextArea.setLocation(x, y);
-        jTextArea.setFont(new Font("Ubuntu", Font.PLAIN, fontsize));
+        jTextArea.setFont(new Font("Arial", Font.PLAIN, fontsize));
         jTextArea.setSize(w, h);
 
         return jTextArea;
     }
 
-    public JButton createJButton(String label, int fontsize, int x, int y, int width, int height){
+    public JButton createJButton(String label, int fontsize, int x, int y, int width, int height, Color text, Color background){
         JButton jButton;
         jButton = new JButton(label);
-        jButton.setFont(new Font("Ubuntu", Font.PLAIN, fontsize));
+        jButton.setFont(new Font("Arial", Font.PLAIN, fontsize));
         jButton.setLocation(x, y);
         jButton.setSize(width, height);
+        jButton.setBackground(background);
+        jButton.setForeground(text);
+
+        return  jButton;
+    }
+
+    public JButton createTestJButton(String label, int fontsize, Color text){
+        JButton jButton;
+        jButton = new JButton(label);
+        jButton.setFont(new Font("Arial", 3, fontsize));
+        jButton.setBorderPainted(false);
+        jButton.setContentAreaFilled(false);
+        jButton.setFocusPainted(false);
+        jButton.setOpaque(false);
+        jButton.setForeground(text);
 
         return  jButton;
     }
@@ -38,7 +63,7 @@ public class JMethods {
     public JButton createJButtonHeader(String label, int fontsize, int x, int y, int width, int height){
         JButton jButton;
         jButton = new JButton(label);
-        jButton.setFont(new Font("Corbel", Font.BOLD+Font.ITALIC, fontsize));
+        jButton.setFont(new Font("Arial", Font.BOLD+Font.ITALIC, fontsize));
         jButton.setForeground(Color.white);
         jButton.setBorderPainted(false);
         jButton.setContentAreaFilled(false);
@@ -55,7 +80,7 @@ public class JMethods {
         jComboBox = new JComboBox(selections);
         jComboBox.setSelectedIndex(0);
         jComboBox.setLocation(x, y);
-        jComboBox.setFont(new Font("Ubuntu", Font.PLAIN, fontsize));
+        jComboBox.setFont(new Font("Arial", Font.PLAIN, fontsize));
         jComboBox.setSize(w, h);
 
         return  jComboBox;
@@ -64,7 +89,7 @@ public class JMethods {
     public JTextField createJTextFeid(int columns, int fontsize, int x, int y, int width, int height){
         JTextField jTextField;
         jTextField = new JTextField(columns);
-        jTextField.setFont(new Font("Ubuntu", Font.PLAIN, fontsize));
+        jTextField.setFont(new Font("Arial", Font.PLAIN, fontsize));
         jTextField.setLocation(x, y);
         jTextField.setSize(width, height);
 

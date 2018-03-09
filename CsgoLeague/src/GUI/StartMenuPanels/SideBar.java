@@ -11,7 +11,7 @@ import java.awt.*;
 public class SideBar extends JPanel {
 
     private  JLabel name, profilePic, currentTeam, team, upcomingEvents;
-    private JButton status;
+    private JButton statusOnline, statusOffline;
     JMethods jMethods = new JMethods();
 
     public SideBar(){
@@ -23,13 +23,20 @@ public class SideBar extends JPanel {
 
         //Profile Picture
         profilePic = jMethods.createJLabel("", 0, 10, 30, 60, 60, Color.BLACK);
-        profilePic.setIcon(jMethods.scaleImage("C:\\Users\\Jack\\Desktop\\CS\\CsLeague\\ProfilePics\\JackPic.jpg"));
+        profilePic.setIcon(jMethods.scaleImage("/Users/jackfountain/Desktop/CSGOLeague/ProfilePics/JackPic.jpg"));
 
         //the name part
-        name = jMethods.createJLabel("Jack", 30, 100, 60, 100, 30, Color.white);
+        name = jMethods.createJLabelHeader("Jack", 30, 80, 40, 100, 30, Color.white);
+
+        //online button
+        statusOnline = jMethods.createJButton("Online", 14, 80, 70, 75, 20, Color.BLUE, Color.black);
+        //offline button
+        statusOffline = jMethods.createJButton("Offline", 14, 158, 70, 75, 20, Color.RED, Color.black);
 
         add(profilePic);
         add(name);
+        add(statusOnline);
+        add(statusOffline);
     }
 
 }

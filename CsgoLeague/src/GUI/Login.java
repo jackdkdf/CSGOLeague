@@ -28,10 +28,10 @@ public class Login extends JFrame implements ActionListener {
         password = jMethods.createJTextFeid(24, 30, 170 , 60 , 200 ,36);
 
         //login button I mean come on
-        login = jMethods.createJButton("Login", 30, 15, 100, 110, 37);
+        //login = jMethods.createJButton("Login", 30, 15, 100, 110, 37);
 
         //making a back button cause no one likes getting stuck in doors
-        back = jMethods.createJButton("Back", 30, 130, 100, 100, 37);
+        //back = jMethods.createJButton("Back", 30, 130, 100, 100, 37);
 
         //Add the objects
         add(usernameLabel);

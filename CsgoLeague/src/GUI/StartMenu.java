@@ -18,6 +18,7 @@ public class StartMenu extends JFrame {
         super("Client");
         getContentPane().setBackground(Color.black);
 
+        add(new HeaderTitle());
         add(new Header());
         add(new SideBar());
         add(new Roster());
