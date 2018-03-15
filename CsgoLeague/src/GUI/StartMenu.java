@@ -13,13 +13,17 @@ public class StartMenu extends JFrame {
 
     private final int buttonHeight = 60;
     JMethods jMethods = new JMethods();
+    HeaderPanels headerPanels = new HeaderPanels();
 
     public StartMenu(){
         super("Client");
         getContentPane().setBackground(Color.black);
+        setLayout(null);
+        headerPanels.initHeader();
 
-        add(new HeaderTitle());
-        add(new Header());
+        add(headerPanels.getHeaderTitle());
+        add(headerPanels.getHeaderButtons());
+        add(headerPanels.getLogoImage());
         add(new SideBar());
         add(new Roster());
         add(new Countdown());

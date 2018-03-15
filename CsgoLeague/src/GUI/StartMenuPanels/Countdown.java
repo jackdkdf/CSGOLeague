@@ -1,5 +1,8 @@
 package GUI.StartMenuPanels;
 
+import Resources.Colors;
+import Resources.JMethods;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -8,11 +11,14 @@ import java.awt.*;
  */
 public class Countdown extends JPanel {
 
+    JMethods jMethods = new JMethods();
+    Colors colors = new Colors();
+
     public Countdown(){
         setLayout(null);
         setLocation(25, 280);
         setSize(400,80);
-        setBackground(new Color(40, 40, 40));
+        setBackground(colors.header);
         setVisible(true);
     }
 

@@ -1,5 +1,8 @@
 package GUI.StartMenuPanels;
 
+import Resources.Colors;
+import Resources.JMethods;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -8,11 +11,14 @@ import java.awt.*;
  */
 public class Roster extends JPanel {
 
+    JMethods jMethods = new JMethods();
+    Colors colors = new Colors();
+
     public Roster(){
         setLayout(null);
         setLocation(25, 120);
         setSize(650,150);
-        setBackground(Color.darkGray);
+        setBackground(colors.sideBar);
         setVisible(true);
     }
 

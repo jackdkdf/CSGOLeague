@@ -25,6 +25,9 @@ public class Actions implements ActionListener {
             case "Leaderboard":
                 JOptionPane.showMessageDialog(null,"Leaderboard");
                 break;
+            case "Invite":
+                JOptionPane.showMessageDialog(null, "Invite Team");
+                break;
         }
     }
 

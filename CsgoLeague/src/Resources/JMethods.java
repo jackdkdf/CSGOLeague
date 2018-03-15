@@ -25,6 +25,15 @@ public class JMethods {
         return jLabel;
     }
 
+    public JLabel createTestJLabel(String label, int fontsize, Color c, int width, int height){
+        JLabel jLabel = new JLabel(label);
+        jLabel.setFont(new Font("Arial", Font.BOLD, fontsize));
+        jLabel.setForeground(c);
+        jLabel.setSize(width, height);
+
+        return jLabel;
+    }
+
     public JTextArea createJTextArea(String label, int rows, int cols, int fontsize, int x, int y, int w, int  h){
         JTextArea jTextArea;
         jTextArea = new JTextArea(label, rows, cols);
@@ -96,10 +105,20 @@ public class JMethods {
         return jTextField;
     }
 
-    public ImageIcon scaleImage(String directory){
+    public JPanel createJPanel(int width, int height, Color background){
+        JPanel jPanel;
+        jPanel = new JPanel();
+        jPanel.setSize(new Dimension(width, height));
+        jPanel.setBackground(background);
+        jPanel.setVisible(true);
+
+        return jPanel;
+    }
+
+    public ImageIcon scaleImage(String directory, int width, int height){
         ImageIcon picture = new ImageIcon(directory);
         Image resizedPicture = picture.getImage();
-        Image newimg = resizedPicture.getScaledInstance(60, 60, Image.SCALE_SMOOTH);
+        Image newimg = resizedPicture.getScaledInstance(width, height, Image.SCALE_SMOOTH);
         picture = new ImageIcon(newimg);
         return picture;
     }

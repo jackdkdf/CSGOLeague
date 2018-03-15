@@ -1,5 +1,8 @@
 package GUI.StartMenuPanels;
 
+import Resources.Colors;
+import Resources.JMethods;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -8,12 +11,23 @@ import java.awt.*;
  */
 public class CreateMatch extends JPanel {
 
+    JMethods jMethods = new JMethods();
+    Colors colors = new Colors();
+
+    private JLabel lock;
+
     public CreateMatch(){
-        setLayout(null);
+        setLayout(new FlowLayout(1));
         setLocation(440, 280);
         setSize(235,80);
-        setBackground(Color.gray);
+        setBackground(colors.createMatch);
         setVisible(true);
+
+        lock = jMethods.createTestJLabel("", 0, null, 60, 70);
+        lock.setIcon(jMethods.scaleImage("/Users/jackfountain/Desktop/CSGOLeague/Pictures/Lock.png", 60, 70));
+
+        add(lock);
+
     }
 
 }
