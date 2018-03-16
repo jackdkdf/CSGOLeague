@@ -10,25 +10,26 @@ import java.awt.*;
 /**
  * Created by Jack on 3/1/2018.
  */
-public class InviteTeam extends JPanel {
+public class InviteTeam {
 
     JMethods jMethods = new JMethods();
     Colors colors = new Colors();
 
+    JPanel button;
     private JButton inv;
 
-    public InviteTeam(){
-        setLayout(new BorderLayout());
-        setLocation(25, 370);
-        setSize(650,180);
-        setBackground(colors.sideBar);
-        setVisible(true);
+    public void initInviteTeam(){
+        button = jMethods.createJPanel(650, 180, 25, 370, colors.sideBar);
+        button.setLayout(new BorderLayout());
 
         inv = jMethods.createTestJButton("Invite Team", 50, Color.white);
         inv.addActionListener(new Actions());
         inv.setActionCommand("Invite");
 
-        add(inv, BorderLayout.CENTER);
+        button.add(inv, BorderLayout.CENTER);
     }
 
+    public JPanel getButton() {
+        return button;
+    }
 }

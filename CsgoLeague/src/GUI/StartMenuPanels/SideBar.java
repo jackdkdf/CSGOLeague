@@ -1,49 +1,61 @@
 package GUI.StartMenuPanels;
 
+import GUI.Actions;
 import Resources.Colors;
 import Resources.JMethods;
 
 import javax.swing.*;
 import java.awt.*;
 
-/**
- * Created by Jack on 3/1/2018.
- */
-public class SideBar extends JPanel {
+public class SideBar {
 
     JMethods jMethods = new JMethods();
     Colors colors = new Colors();
 
-    private  JLabel name, profilePic, currentTeam, team, upcomingEvents;
+    JPanel User, team, matches;
+
+    private  JLabel name, profilePic, currentTeam, myTeam, upcomingEvents;
     private JButton statusOnline, statusOffline;
 
-    public SideBar(){
-        setLayout(null);
-        setLocation(700, 0);
-        setSize(300,600);
-        setBackground(colors.sideBar);
-        setVisible(true);
-
-        //Profile Picture
+    public void initSideBar(){
+        User = jMethods.createJPanel(300, 200, 700, 0, colors.sideBar);
+        User.setLayout(null);
+        //Profile picture scaling
         profilePic = jMethods.createJLabel("", 0, 10, 30, 60, 60, Color.BLACK);
-        //profilePic = jMethods.createTestJLabel("", 10, Color.BLACK, 60, 60);
-        profilePic.setIcon(jMethods.scaleImage("/Users/jackfountain/Desktop/CSGOLeague/ProfilePics/JackPic.jpg", 60 , 60));
+        profilePic.setIcon(jMethods.scaleImage("/Users/jackfountain/Desktop/CSGOLeague/Pictures/JackPic.jpg", 60 , 60));
 
-        //the name part
+        //Name label
         name = jMethods.createJLabelHeader("Jack", 30, 80, 40, 100, 30, Color.white);
-        //name = jMethods.createTestJLabel("Jack", 30, Color.white, 100, 30);
 
-        //online button
-        statusOnline = jMethods.createJButton("Online", 14, 80, 70, 75, 20, Color.BLUE, Color.black);
-        //statusOnline = jMethods.createTestJButton("Online", 14, Color.BLUE);
-        //offline button
-        statusOffline = jMethods.createJButton("Offline", 14, 158, 70, 75, 20, Color.RED, Color.black);
-        //statusOffline = jMethods.createTestJButton("Offline", 14, Color.RED);
+        //Status buttons
+        statusOnline = jMethods.createPositionedJButton("Online",14, 80, 20, 60, 70, Color.GREEN);
+        statusOffline = jMethods.createPositionedJButton("Offline", 14, 80, 20, 120, 70, Color.RED);
+        statusOnline.addActionListener(new Actions());
+        statusOffline.addActionListener(new Actions());
+        statusOnline.setActionCommand("Online");
+        statusOffline.setActionCommand("Offline");
 
-        add(profilePic);
-        add(name);
-        add(statusOnline);
-        add(statusOffline);
+        //Adding components to User
+        User.add(profilePic);
+        User.add(name);
+        User.add(statusOnline);
+        User.add(statusOffline);
+
+        team = jMethods.createJPanel(300, 200, 700, 200, colors.sideBar);
+
+        matches = jMethods.createJPanel(300, 200, 700, 400, colors.sideBar);
+
     }
 
+    public JPanel getMatches() {
+        return matches;
+    }
+
+    public JPanel getTeam() {
+        return team;
+    }
+
+    public JPanel getUser() {
+        return User;
+    }
 }

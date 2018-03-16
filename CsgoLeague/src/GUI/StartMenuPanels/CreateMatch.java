@@ -23,7 +23,7 @@ public class CreateMatch extends JPanel {
         setBackground(colors.createMatch);
         setVisible(true);
 
-        lock = jMethods.createTestJLabel("", 0, null, 60, 70);
+        lock = jMethods.createTestJLabel("", 0, null);
         lock.setIcon(jMethods.scaleImage("/Users/jackfountain/Desktop/CSGOLeague/Pictures/Lock.png", 60, 70));
 
         add(lock);

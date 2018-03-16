@@ -15,7 +15,7 @@ public class Central {
         StartMenu startMenu = new StartMenu();
         startMenu.setSize(1000, 600);
         startMenu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        startMenu.setResizable(true);
+        startMenu.setResizable(false);
         startMenu.setLayout(null);
         startMenu.setVisible(true);
     }

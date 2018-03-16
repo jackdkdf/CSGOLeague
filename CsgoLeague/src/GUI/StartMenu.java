@@ -11,24 +11,39 @@ import java.awt.*;
  */
 public class StartMenu extends JFrame {
 
-    private final int buttonHeight = 60;
-    JMethods jMethods = new JMethods();
+    //Define classes
     HeaderPanels headerPanels = new HeaderPanels();
+    Countdown countdown = new Countdown();
+    InviteTeam inviteTeam = new InviteTeam();
+    Roster roster = new Roster();
+    SideBar sideBar = new SideBar();
 
     public StartMenu(){
         super("Client");
         getContentPane().setBackground(Color.black);
         setLayout(null);
-        headerPanels.initHeader();
+        init();
 
         add(headerPanels.getHeaderTitle());
         add(headerPanels.getHeaderButtons());
         add(headerPanels.getLogoImage());
-        add(new SideBar());
-        add(new Roster());
-        add(new Countdown());
+        add(sideBar.getUser());
+        add(sideBar.getMatches());
+        add(sideBar.getTeam());
+        add(roster.getPlayers());
+        //add(roster.getReady());
+        add(countdown.getWords());
+        add(countdown.getTimer());
         add(new CreateMatch());
-        add(new InviteTeam());
+        add(inviteTeam.getButton());
     }
 
+    public void init(){
+        headerPanels.initHeader();
+        countdown.initCountdown();
+        inviteTeam.initInviteTeam();
+        //Create match
+        roster.initRoster();
+        sideBar.initSideBar();
+    }
 }

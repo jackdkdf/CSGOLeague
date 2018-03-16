@@ -25,11 +25,27 @@ public class JMethods {
         return jLabel;
     }
 
-    public JLabel createTestJLabel(String label, int fontsize, Color c, int width, int height){
+    public JLabel createTestJLabel(String label, int fontsize, Color c){
         JLabel jLabel = new JLabel(label);
         jLabel.setFont(new Font("Arial", Font.BOLD, fontsize));
         jLabel.setForeground(c);
-        jLabel.setSize(width, height);
+
+        return jLabel;
+    }
+
+    public JLabel createPlayerJLabel(String label, Color c){
+        JLabel jLabel = new JLabel(label);
+        jLabel.setForeground(c);
+
+        return jLabel;
+    }
+
+    public JLabel createTestPlayerJLabel(String label, int fontsize, Color bg, Color fg){
+        JLabel jLabel = new JLabel(label);
+        jLabel.setFont(new Font("Arial", Font.PLAIN, fontsize));
+        jLabel.setOpaque(true);
+        jLabel.setForeground(fg);
+        jLabel.setBackground(bg);
 
         return jLabel;
     }
@@ -44,11 +60,10 @@ public class JMethods {
         return jTextArea;
     }
 
-    public JButton createJButton(String label, int fontsize, int x, int y, int width, int height, Color text, Color background){
+    public JButton createJButton(String label, int fontsize, int width, int height, Color text, Color background){
         JButton jButton;
         jButton = new JButton(label);
         jButton.setFont(new Font("Arial", Font.PLAIN, fontsize));
-        jButton.setLocation(x, y);
         jButton.setSize(width, height);
         jButton.setBackground(background);
         jButton.setForeground(text);
@@ -60,6 +75,21 @@ public class JMethods {
         JButton jButton;
         jButton = new JButton(label);
         jButton.setFont(new Font("Arial", 3, fontsize));
+        jButton.setBorderPainted(false);
+        jButton.setContentAreaFilled(false);
+        jButton.setFocusPainted(false);
+        jButton.setOpaque(false);
+        jButton.setForeground(text);
+
+        return  jButton;
+    }
+
+    public JButton createPositionedJButton(String label, int fontsize, int width, int height, int x, int y, Color text){
+        JButton jButton;
+        jButton = new JButton(label);
+        jButton.setFont(new Font("Arial", 3, fontsize));
+        jButton.setSize(width, height);
+        jButton.setLocation(x, y);
         jButton.setBorderPainted(false);
         jButton.setContentAreaFilled(false);
         jButton.setFocusPainted(false);
@@ -105,10 +135,11 @@ public class JMethods {
         return jTextField;
     }
 
-    public JPanel createJPanel(int width, int height, Color background){
+    public JPanel createJPanel(int width, int height, int x, int y, Color background){
         JPanel jPanel;
         jPanel = new JPanel();
         jPanel.setSize(new Dimension(width, height));
+        jPanel.setLocation(x, y);
         jPanel.setBackground(background);
         jPanel.setVisible(true);
 

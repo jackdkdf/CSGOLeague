@@ -28,6 +28,12 @@ public class Actions implements ActionListener {
             case "Invite":
                 JOptionPane.showMessageDialog(null, "Invite Team");
                 break;
+            case "Online":
+                JOptionPane.showMessageDialog(null, "Online");
+                break;
+            case "Offline":
+                JOptionPane.showMessageDialog(null, "Offline");
+                break;
         }
     }
 

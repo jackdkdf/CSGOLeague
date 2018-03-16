@@ -2,28 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84d6f8e2-b25e-4144-8f7c-b02431edbef0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/GUI/StartMenuPanels/HeaderPanels.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Resources/Colors.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/Central.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/Central.class" />
       <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/Actions.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/Actions.class" />
       <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenu.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenu.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/Header.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/HeaderTitle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/Countdown.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/Countdown.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/CreateMatch.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/CreateMatch.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/HeaderPanels.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/HeaderPanels.class" />
       <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/InviteTeam.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/InviteTeam.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/Roster.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/Roster.class" />
       <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/SideBar.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/SideBar.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/Resources/Colors.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/Resources/Colors.class" />
       <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/Resources/JMethods.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/Resources/JMethods.class" />
       <change beforePath="$PROJECT_DIR$/src/Central.java" afterPath="$PROJECT_DIR$/src/Central.java" />
       <change beforePath="$PROJECT_DIR$/src/GUI/Actions.java" afterPath="$PROJECT_DIR$/src/GUI/Actions.java" />
       <change beforePath="$PROJECT_DIR$/src/GUI/StartMenu.java" afterPath="$PROJECT_DIR$/src/GUI/StartMenu.java" />
       <change beforePath="$PROJECT_DIR$/src/GUI/StartMenuPanels/Countdown.java" afterPath="$PROJECT_DIR$/src/GUI/StartMenuPanels/Countdown.java" />
       <change beforePath="$PROJECT_DIR$/src/GUI/StartMenuPanels/CreateMatch.java" afterPath="$PROJECT_DIR$/src/GUI/StartMenuPanels/CreateMatch.java" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/StartMenuPanels/Header.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/StartMenuPanels/HeaderTitle.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/StartMenuPanels/HeaderPanels.java" afterPath="$PROJECT_DIR$/src/GUI/StartMenuPanels/HeaderPanels.java" />
       <change beforePath="$PROJECT_DIR$/src/GUI/StartMenuPanels/InviteTeam.java" afterPath="$PROJECT_DIR$/src/GUI/StartMenuPanels/InviteTeam.java" />
       <change beforePath="$PROJECT_DIR$/src/GUI/StartMenuPanels/Roster.java" afterPath="$PROJECT_DIR$/src/GUI/StartMenuPanels/Roster.java" />
       <change beforePath="$PROJECT_DIR$/src/GUI/StartMenuPanels/SideBar.java" afterPath="$PROJECT_DIR$/src/GUI/StartMenuPanels/SideBar.java" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Colors.java" afterPath="$PROJECT_DIR$/src/Resources/Colors.java" />
       <change beforePath="$PROJECT_DIR$/src/Resources/JMethods.java" afterPath="$PROJECT_DIR$/src/Resources/JMethods.java" />
+      <change beforePath="$PROJECT_DIR$/../Progress/03.15.2018.png" afterPath="$PROJECT_DIR$/../Progress/03.15.2018.png" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,52 +40,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HeaderPanels.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/HeaderPanels.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="25" column="105" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="105" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2803#2804#0" expanded="true" />
-                <element signature="e#2837#2838#0" expanded="true" />
-                <element signature="e#2877#2878#0" expanded="true" />
-                <element signature="e#2913#2914#0" expanded="true" />
-                <element signature="e#2949#2950#0" expanded="true" />
-                <element signature="e#2981#2982#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateMatch.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/CreateMatch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SideBar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/SideBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="600">
+              <caret line="45" column="74" lean-forward="false" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1663#1664#0" expanded="true" />
+                <element signature="e#1693#1694#0" expanded="true" />
+                <element signature="e#1724#1725#0" expanded="true" />
+                <element signature="e#1751#1752#0" expanded="true" />
+                <element signature="e#1782#1783#0" expanded="true" />
+                <element signature="e#1809#1810#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Colors.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Resources/Colors.java">
+      <file leaf-file-name="StartMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GUI/StartMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="53" lean-forward="false" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+            <state relative-caret-position="435">
+              <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Central.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Central.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Roster.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/Roster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="65" column="29" lean-forward="false" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+              <folding>
+                <element signature="e#3321#3322#0" expanded="true" />
+                <element signature="e#3351#3352#0" expanded="true" />
+                <element signature="e#3383#3384#0" expanded="true" />
+                <element signature="e#3411#3412#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JMethods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Resources/JMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,17 +133,18 @@
         <option value="$PROJECT_DIR$/src/GUI/Login.java" />
         <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/Header.java" />
         <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/HeaderTitle.java" />
-        <option value="$PROJECT_DIR$/src/Central.java" />
-        <option value="$PROJECT_DIR$/src/GUI/StartMenu.java" />
-        <option value="$PROJECT_DIR$/src/Resources/JMethods.java" />
-        <option value="$PROJECT_DIR$/src/GUI/Actions.java" />
         <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/HeaderPanels.java" />
-        <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/SideBar.java" />
-        <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/Roster.java" />
+        <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/CreateMatch.java" />
+        <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/Countdown.java" />
         <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/InviteTeam.java" />
         <option value="$PROJECT_DIR$/src/Resources/Colors.java" />
-        <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/Countdown.java" />
-        <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/CreateMatch.java" />
+        <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/sideBar2.java" />
+        <option value="$PROJECT_DIR$/src/GUI/Actions.java" />
+        <option value="$PROJECT_DIR$/src/GUI/StartMenu.java" />
+        <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/SideBar.java" />
+        <option value="$PROJECT_DIR$/src/Central.java" />
+        <option value="$PROJECT_DIR$/src/Resources/JMethods.java" />
+        <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/Roster.java" />
       </list>
     </option>
   </component>
@@ -157,9 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,7 +210,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,12 +475,13 @@
       <workItem from="1520627941358" duration="21000" />
       <workItem from="1520702700295" duration="599000" />
       <workItem from="1520881501821" duration="5703000" />
-      <workItem from="1520958694610" duration="3617000" />
+      <workItem from="1520958694610" duration="13791000" />
+      <workItem from="1521162731371" duration="758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14563000" />
+    <option name="totallyTimeSpent" value="25495000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -485,8 +504,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842106" sideWeight="0.5208333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32833958" sideWeight="0.47916666" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32833958" sideWeight="0.47916666" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -496,8 +515,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.49583334" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -525,16 +544,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/SideBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Resources/JMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -784,94 +793,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/HeaderTitle.java" />
     <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/Header.java" />
-    <entry file="file://$PROJECT_DIR$/src/Central.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/HeaderPanels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/StartMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/JMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="120" column="69" lean-forward="false" selection-start-line="120" selection-start-column="69" selection-end-line="120" selection-end-column="69" />
+        <state relative-caret-position="288">
+          <caret line="22" column="52" lean-forward="false" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2469#2470#0" expanded="false" />
+            <element signature="e#2503#2504#0" expanded="false" />
+            <element signature="e#2543#2544#0" expanded="false" />
+            <element signature="e#2579#2580#0" expanded="false" />
+            <element signature="e#2615#2616#0" expanded="false" />
+            <element signature="e#2647#2648#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/Actions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/Roster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/InviteTeam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/SideBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/Colors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="53" lean-forward="false" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/Countdown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" lean-forward="true" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="312">
+          <caret line="36" column="65" lean-forward="false" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+          <folding>
+            <element signature="e#1014#1015#0" expanded="false" />
+            <element signature="e#1042#1043#0" expanded="false" />
+            <element signature="e#1073#1074#0" expanded="false" />
+            <element signature="e#1101#1102#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/HeaderPanels.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/InviteTeam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="25" column="105" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="105" />
+        <state relative-caret-position="405">
+          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2803#2804#0" expanded="true" />
-            <element signature="e#2837#2838#0" expanded="true" />
-            <element signature="e#2877#2878#0" expanded="true" />
-            <element signature="e#2913#2914#0" expanded="true" />
-            <element signature="e#2949#2950#0" expanded="true" />
-            <element signature="e#2981#2982#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="false" />
+            <element signature="e#761#762#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -879,8 +836,80 @@
     <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/CreateMatch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+          <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Colors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/sideBar2.java" />
+    <entry file="file://$PROJECT_DIR$/src/GUI/Actions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/StartMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Central.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/SideBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="45" column="74" lean-forward="false" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
+            <element signature="e#1724#1725#0" expanded="true" />
+            <element signature="e#1751#1752#0" expanded="true" />
+            <element signature="e#1782#1783#0" expanded="true" />
+            <element signature="e#1809#1810#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/JMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/Roster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="65" column="29" lean-forward="false" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+          <folding>
+            <element signature="e#3321#3322#0" expanded="true" />
+            <element signature="e#3351#3352#0" expanded="true" />
+            <element signature="e#3383#3384#0" expanded="true" />
+            <element signature="e#3411#3412#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
