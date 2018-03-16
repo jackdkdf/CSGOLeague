@@ -14,11 +14,11 @@ public class SideBar {
 
     JPanel User, team, matches;
 
-    private  JLabel name, profilePic, currentTeam, myTeam, upcomingEvents;
+    private  JLabel name, profilePic, currentTeam, myTeam, teamStanding, upcomingEvents;
     private JButton statusOnline, statusOffline;
 
     public void initSideBar(){
-        User = jMethods.createJPanel(300, 200, 700, 0, colors.sideBar);
+        User = jMethods.createJPanel(300, 100, 700, 0, colors.sideBar);
         User.setLayout(null);
         //Profile picture scaling
         profilePic = jMethods.createJLabel("", 0, 10, 30, 60, 60, Color.BLACK);
@@ -41,10 +41,18 @@ public class SideBar {
         User.add(statusOnline);
         User.add(statusOffline);
 
-        team = jMethods.createJPanel(300, 200, 700, 200, colors.sideBar);
+        team = jMethods.createJPanel(300, 100, 700, 100, colors.sideBar);
+        team.setLayout(new BoxLayout(team, BoxLayout.PAGE_AXIS));
 
-        matches = jMethods.createJPanel(300, 200, 700, 400, colors.sideBar);
+        currentTeam = jMethods.createTestJLabel("Current Team", 22, Color.white);
+        myTeam = jMethods.createTestJLabel("MARVELOUS GAMING", 15, Color.white);
+        teamStanding = jMethods.createTestJLabel("3rd place in league", 15, Color.YELLOW);
 
+        team.add(currentTeam);
+        team.add(myTeam);
+        team.add(teamStanding);
+
+        matches = jMethods.createJPanel(300, 400, 700, 200, colors.sideBar);
     }
 
     public JPanel getMatches() {

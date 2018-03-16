@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84d6f8e2-b25e-4144-8f7c-b02431edbef0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/Central.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/Central.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/Actions.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/Actions.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenu.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenu.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/Countdown.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/Countdown.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/CreateMatch.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/CreateMatch.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/HeaderPanels.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/HeaderPanels.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/InviteTeam.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/InviteTeam.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/Roster.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/Roster.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/SideBar.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/GUI/StartMenuPanels/SideBar.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/Resources/Colors.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/Resources/Colors.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/CsgoLeague/Resources/JMethods.class" afterPath="$PROJECT_DIR$/out/production/CsgoLeague/Resources/JMethods.class" />
-      <change beforePath="$PROJECT_DIR$/src/Central.java" afterPath="$PROJECT_DIR$/src/Central.java" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/Actions.java" afterPath="$PROJECT_DIR$/src/GUI/Actions.java" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/StartMenu.java" afterPath="$PROJECT_DIR$/src/GUI/StartMenu.java" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/StartMenuPanels/Countdown.java" afterPath="$PROJECT_DIR$/src/GUI/StartMenuPanels/Countdown.java" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/StartMenuPanels/CreateMatch.java" afterPath="$PROJECT_DIR$/src/GUI/StartMenuPanels/CreateMatch.java" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/StartMenuPanels/HeaderPanels.java" afterPath="$PROJECT_DIR$/src/GUI/StartMenuPanels/HeaderPanels.java" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/StartMenuPanels/InviteTeam.java" afterPath="$PROJECT_DIR$/src/GUI/StartMenuPanels/InviteTeam.java" />
       <change beforePath="$PROJECT_DIR$/src/GUI/StartMenuPanels/Roster.java" afterPath="$PROJECT_DIR$/src/GUI/StartMenuPanels/Roster.java" />
       <change beforePath="$PROJECT_DIR$/src/GUI/StartMenuPanels/SideBar.java" afterPath="$PROJECT_DIR$/src/GUI/StartMenuPanels/SideBar.java" />
-      <change beforePath="$PROJECT_DIR$/src/Resources/Colors.java" afterPath="$PROJECT_DIR$/src/Resources/Colors.java" />
-      <change beforePath="$PROJECT_DIR$/src/Resources/JMethods.java" afterPath="$PROJECT_DIR$/src/Resources/JMethods.java" />
-      <change beforePath="$PROJECT_DIR$/../Progress/03.15.2018.png" afterPath="$PROJECT_DIR$/../Progress/03.15.2018.png" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,66 +18,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SideBar.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SideBar.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/SideBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="45" column="74" lean-forward="false" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="74" />
+            <state relative-caret-position="388">
+              <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1663#1664#0" expanded="true" />
-                <element signature="e#1693#1694#0" expanded="true" />
-                <element signature="e#1724#1725#0" expanded="true" />
-                <element signature="e#1751#1752#0" expanded="true" />
-                <element signature="e#1782#1783#0" expanded="true" />
-                <element signature="e#1809#1810#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StartMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GUI/StartMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Central.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Central.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Roster.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/Roster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="65" column="29" lean-forward="false" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
-              <folding>
-                <element signature="e#3321#3322#0" expanded="true" />
-                <element signature="e#3351#3352#0" expanded="true" />
-                <element signature="e#3383#3384#0" expanded="true" />
-                <element signature="e#3411#3412#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JMethods.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Resources/JMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2087#2088#0" expanded="true" />
+                <element signature="e#2117#2118#0" expanded="true" />
+                <element signature="e#2148#2149#0" expanded="true" />
+                <element signature="e#2175#2176#0" expanded="true" />
+                <element signature="e#2206#2207#0" expanded="true" />
+                <element signature="e#2233#2234#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,10 +72,10 @@
         <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/sideBar2.java" />
         <option value="$PROJECT_DIR$/src/GUI/Actions.java" />
         <option value="$PROJECT_DIR$/src/GUI/StartMenu.java" />
-        <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/SideBar.java" />
         <option value="$PROJECT_DIR$/src/Central.java" />
         <option value="$PROJECT_DIR$/src/Resources/JMethods.java" />
         <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/Roster.java" />
+        <option value="$PROJECT_DIR$/src/GUI/StartMenuPanels/SideBar.java" />
       </list>
     </option>
   </component>
@@ -476,12 +407,12 @@
       <workItem from="1520702700295" duration="599000" />
       <workItem from="1520881501821" duration="5703000" />
       <workItem from="1520958694610" duration="13791000" />
-      <workItem from="1521162731371" duration="758000" />
+      <workItem from="1521162731371" duration="1469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25495000" />
+    <option name="totallyTimeSpent" value="26206000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -858,38 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/StartMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Central.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/SideBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="45" column="74" lean-forward="false" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-            <element signature="e#1751#1752#0" expanded="true" />
-            <element signature="e#1782#1783#0" expanded="true" />
-            <element signature="e#1809#1810#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Resources/JMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -902,13 +801,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/Roster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="65" column="29" lean-forward="false" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+        <state relative-caret-position="147">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
-            <element signature="e#3321#3322#0" expanded="true" />
-            <element signature="e#3351#3352#0" expanded="true" />
-            <element signature="e#3383#3384#0" expanded="true" />
-            <element signature="e#3411#3412#0" expanded="true" />
+            <element signature="e#1815#1816#0" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Central.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/StartMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/StartMenuPanels/SideBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2087#2088#0" expanded="true" />
+            <element signature="e#2117#2118#0" expanded="true" />
+            <element signature="e#2148#2149#0" expanded="true" />
+            <element signature="e#2175#2176#0" expanded="true" />
+            <element signature="e#2206#2207#0" expanded="true" />
+            <element signature="e#2233#2234#0" expanded="true" />
           </folding>
         </state>
       </provider>
