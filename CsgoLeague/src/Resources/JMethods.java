@@ -2,6 +2,8 @@ package Resources;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.font.TextAttribute;
+import java.util.Map;
 
 public class JMethods {
 
@@ -15,11 +17,23 @@ public class JMethods {
         return jLabel;
     }
 
-    public JLabel createJLabelHeader(String label, int fontsize, int x, int y, int w, int h, Color c){
+//    public JLabel createJLabelHeader(String label, int fontsize, int x, int y, int w, int h, Color c){
+////        JLabel jLabel = new JLabel(label);
+////        jLabel.setFont(new Font("Arial", Font.BOLD, fontsize));
+////        jLabel.setLocation(x, y);
+////        jLabel.setSize(w, h);
+////        jLabel.setForeground(c);
+////
+////        return jLabel;
+////    }
+
+    public JLabel createJLabelHeader(String label, int fontsize, int fonttype, Color c){
         JLabel jLabel = new JLabel(label);
-        jLabel.setFont(new Font("Arial", Font.BOLD, fontsize));
-        jLabel.setLocation(x, y);
-        jLabel.setSize(w, h);
+        jLabel.setFont(new Font("Arial", fonttype, fontsize));
+        Font font = jLabel.getFont();
+        Map attributes = font.getAttributes();
+        attributes.put(TextAttribute.UNDERLINE, TextAttribute.UNDERLINE_ON);
+        jLabel.setFont(font.deriveFont(attributes));
         jLabel.setForeground(c);
 
         return jLabel;

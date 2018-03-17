@@ -17,6 +17,7 @@ public class StartMenu extends JFrame {
     InviteTeam inviteTeam = new InviteTeam();
     Roster roster = new Roster();
     SideBar sideBar = new SideBar();
+    CreateMatch createMatch = new CreateMatch();
 
     public StartMenu(){
         super("Client");
@@ -30,11 +31,12 @@ public class StartMenu extends JFrame {
         add(sideBar.getUser());
         add(sideBar.getMatches());
         add(sideBar.getTeam());
+        add(sideBar.getUserPic());
+        add(sideBar.getUserstatus());
         add(roster.getPlayers());
-        //add(roster.getReady());
         add(countdown.getWords());
         add(countdown.getTimer());
-        add(new CreateMatch());
+        add(createMatch.getCreateMatch());
         add(inviteTeam.getButton());
     }
 
@@ -42,7 +44,7 @@ public class StartMenu extends JFrame {
         headerPanels.initHeader();
         countdown.initCountdown();
         inviteTeam.initInviteTeam();
-        //Create match
+        createMatch.initCreateMatch();
         roster.initRoster();
         sideBar.initSideBar();
     }

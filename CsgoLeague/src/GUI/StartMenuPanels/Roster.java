@@ -1,5 +1,6 @@
 package GUI.StartMenuPanels;
 
+import GUI.Actions;
 import Resources.Colors;
 import Resources.JMethods;
 
@@ -71,7 +72,9 @@ public class Roster {
 
         players.add(player5, c);
 
-        button1 = jMethods.createJButton("Ready up", 15, 100, 20, Color.white, colors.notReady);
+        button1 = jMethods.createJButton("Ready", 15, 100, 20, Color.white, colors.ready);
+        button1.addActionListener(new Actions());
+        button1.setActionCommand("Ready");
         button1.setHorizontalAlignment(0);
 
         button2 = jMethods.createTestPlayerJLabel("Ready", 15, colors.ready, Color.WHITE);
@@ -97,7 +100,7 @@ public class Roster {
 
         c.gridx = 1;
         c.gridy = 2;
-        c.ipadx = 50;
+        c.ipadx = 30;
         c.ipady = 50;
 
         players.add(button2, c);

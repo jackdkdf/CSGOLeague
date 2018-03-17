@@ -34,6 +34,9 @@ public class Actions implements ActionListener {
             case "Offline":
                 JOptionPane.showMessageDialog(null, "Offline");
                 break;
+            case "Ready":
+                JOptionPane.showMessageDialog(null, "Readied up");
+                break;
         }
     }
 
